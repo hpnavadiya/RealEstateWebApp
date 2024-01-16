@@ -57,6 +57,9 @@ export default function Header() {
               About
             </li>
           </Link>
+          <Link to='/search'>
+              <li className = 'text-slate-700 hover:underline'>List</li>
+          </Link>
           <Link to='/profile'>
             {currentUser ? (
               <img
